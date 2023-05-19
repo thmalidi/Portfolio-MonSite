@@ -1,0 +1,58 @@
+/* styles.css */
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("/font/RobotoSlab-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Flow Circular";
+  src: url("/font/FlowCircular-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("/font/BebasNeue-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Oxygen";
+  src: url("/font/Oxygen-Bold.ttf") format("truetype");
+}
+
+body {
+    background-color: #353535;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #e25d28;
+    text-align: center;
+    font-family: "Roboto Slab";
+    font-size:xx-large;
+  }
+  
+  h2{
+    font-family: "Flow Circular";
+    color: #e25d28;
+  }
+
+  ul {
+    list-style-type:disc;
+    padding: 1;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: "Roboto Slab";
+  }
+  
+  a {
+    font-family: "Oxygen";
+    color: #e25d28;
+    font-size: large;
+    font-weight: lighter;
+    text-decoration: none;
+  }
+  
